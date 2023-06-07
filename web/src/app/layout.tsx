@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {/* esquerda */}
           <div className="relative flex flex-col items-start justify-between border-r border-white/10 px-28 py-16 overflow-hidden bg-[url(../assets/bg-stars.svg)] bg-cover">
             {/* blur */}
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 rounded-full blur-full h-[288px] w-[526px] bg bg-purple-700 opacity-50" />
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 rounded-full blur-full h-[288px] w-[526px] bg-purple-700 opacity-50" />
             {/* stripes */}
             <div className="absolute bottom-0 right-2 top-0 w-2 bg-stripes"></div>
             {isAuthenticate ? <Profile /> : <SignIn />}

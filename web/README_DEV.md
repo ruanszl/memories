@@ -14,7 +14,7 @@ npm i @rocketseat/eslint-config -D
 Adcione essa linha ao arquivo .eslintrc.json
 
 ```bash
-" @rocketseat/eslint-config/react"
+"@rocketseat/eslint-config/react"
 ```
 
 #
